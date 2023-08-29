@@ -4,6 +4,7 @@ import Contact from './Routes/Contact'
 import About from './Routes/About'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Bar from './components/Bar'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     
     <Router>
       <Navbar/>
+      <Bar/>
 
       <Routes>
     
